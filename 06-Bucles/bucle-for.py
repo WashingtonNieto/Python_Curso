@@ -31,3 +31,17 @@ for contador in range(0,10):
         print(frutas)
 
 
+# declaracion de ruptura
+frutas = ["banano","pera", "manzana"]
+for x in frutas:
+    print(x)
+    if x == "banano":
+        break
+
+
+# declaracion de continuacion
+frutas = ["banano","pera", "manzana"]
+for x in frutas:
+    if x == "banano":
+        continue
+    print(x)
