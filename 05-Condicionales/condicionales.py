@@ -1,52 +1,47 @@
+"""
+# Operadores de comparacion
+==  igual
+!=  diferente
+<   Menor que
+>   Mayor que
+<=  Menor igual que
+>=  Mayor igual que
+"""
+
 # condicionales
-
-# entrada de datos
-
-# nombre = input("Entre su nombre: ")
-# ciudad = input("Entre su ciudad: ")
-# edad = input ("Entre su edad: ")
-# mayoriaDeEdad = 18
-
-# if int(edad) >= mayoriaDeEdad:
-#     print(f"{nombre} Es usted una persona mayor de edad")
-#     if ciudad == "Bogota":
-#         print("Usted vive en la capital")
-#     else:
-#         print("Usted es fuereño")
+# print("########### ejemplo 1 ##########")
+# color = input("Intenta adivinar el color. Cual color eliges: ")
+# if color == "rojo":
+#     print("Bien!! adivinaste el color")
 # else:
-#     print(f"{nombre} Es usted una persona menor de edad")
-#     if ciudad == "Bogota":
-#         print("Usted vive en la capital")
-#     else:
-#         print("Usted es fuereño")
+#     print("Mal! intenta de nuevo")
 
-print("------------------------")
-# diaDeLaSemana = input("Entre el dia de la semana: ")
-# if diaDeLaSemana == "1":
-#     print("Es lunes")
+# print("\n########### ejemplo 2 ##########")
+# year=int(input("Entre el año en que estamos: "))
+
+# if year < 2025:
+#     print("Estamos antes del año 2025" )
 # else:
-#     if diaDeLaSemana == "2":
-#         print("Es martes")
-#     else:
-#         if diaDeLaSemana == "3":
-#             print("Es miercoles")
-#         else:
-#             if diaDeLaSemana == "4":
-#                 print("Es jueves")
+#     print("Estamos despues del año 2025" )
 
+print("\n########### ejemplo 3 ##########")
 
-diaDeLaSemana = input("Entre el dia de la semana: ")
-if diaDeLaSemana == "1":
-    print("Es lunes")           
-elif diaDeLaSemana == "2":
-    print("Es martes")
-elif diaDeLaSemana == "3":
-    print("Es miercoles")
-elif diaDeLaSemana == "4":
-    print("Es jueves")
-elif diaDeLaSemana == "5":
-    print("Es viernes")
-elif diaDeLaSemana == "6":
-    print("Es sabado")
-elif diaDeLaSemana == "7":
-    print("Es domingo")                    
+nombre = input("Entre su nombre: ")
+ciudad = input("Entre su ciudad: ")
+edad = int(input("entre su edad: "))
+
+mayoriaDeEdad = int(18)
+limiteDeEdadParaTrabajar= int(65)
+
+if edad >= mayoriaDeEdad:
+    print(f"{nombre} es mayor de edad !!")
+    
+    if edad <= limiteDeEdadParaTrabajar:
+        print(f"Tiene edad para trabajar")
+    else:
+        print(f"NO Tiene edad para trabajar")
+    
+else:
+    print(f"{nombre} es menor de edad !!")
+
+    print("prueba")
