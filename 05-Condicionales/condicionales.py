@@ -24,24 +24,24 @@
 # else:
 #     print("Estamos despues del año 2025" )
 
-print("\n########### ejemplo 3 ##########")
+# print("\n########### ejemplo 3 ##########")
 
-nombre = input("Entre su nombre: ")
-ciudad = input("Entre su ciudad: ")
-edad = int(input("entre su edad: "))
+# nombre = input("Entre su nombre: ")
+# ciudad = input("Entre su ciudad: ")
+# edad = int(input("entre su edad: "))
 
-mayoriaDeEdad = int(18)
-limiteDeEdadParaTrabajar= int(65)
+# mayoriaDeEdad = int(18)
+# limiteDeEdadParaTrabajar= int(65)
 
-if edad >= mayoriaDeEdad:
-    print(f"{nombre} es mayor de edad !!")
+# if edad >= mayoriaDeEdad:
+#     print(f"{nombre} es mayor de edad !!")
     
-    if edad <= limiteDeEdadParaTrabajar:
-        print(f"Tiene edad para trabajar")
-    else:
-        print(f"NO Tiene edad para trabajar")
+#     if edad <= limiteDeEdadParaTrabajar:
+#         print(f"Tiene edad para trabajar")
+#     else:
+#         print(f"NO Tiene edad para trabajar")
     
-else:
-    print(f"{nombre} es menor de edad !!")
+# else:
+#     print(f"{nombre} es menor de edad !!")
 
-    print("prueba")
+#     print("prueba")

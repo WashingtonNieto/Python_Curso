@@ -49,8 +49,6 @@ def mostrarNombre(nombre, edad):
     if edad >= 18:
         print("y eres mayor de edad!")
 
-
-
 nombre = input("Introduce tu nombre: ")
 edad = int(input("Introduce tu edad: "))
 
