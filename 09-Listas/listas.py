@@ -23,3 +23,7 @@ print(peliculas)
 print(cantantes)
 print(year)
 print(variada)
+
+
+# Indices
+print(peliculas[1])
