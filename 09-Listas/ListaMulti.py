@@ -36,5 +36,8 @@ for contacto in contactos:
 
 for contacto in contactos:
     for elemento in contacto:
-        print(elemento)
+        if contacto.index(elemento) == 0:
+            print("Nombre: " + elemento)
+        else:
+            print("Email: " + elemento)
     print("\n")
