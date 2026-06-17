@@ -1,7 +1,13 @@
-numero_usuario = int(input("Que numero de tabla de multiplicar quieres? "))
-contador = 0
-while contador <= 10:
-    print(f"{numero_usuario} X {contador} = {numero_usuario*contador}")
-    contador +=1 
-else:
-    print("Tabla terminada")
+# print("ejercicio 5")
+
+# Mostrar todas las tablas de multiplicar del 1 al 10
+# mostrando el titulo de la tabla y las multiplicaciones
+for cabecera in range(1,11):
+    print("##################")
+    print(f"## Tabla del {cabecera} ##")
+    print("##################")
+
+    for numero in range(1,11):
+        print(f"{numero} x {cabecera} = {numero*cabecera}")
+    
+    print("\n")

@@ -1,23 +1,8 @@
-# Ejercicio 1
-print("### Ejercicio 1 ###")
-print("### Tablas de multiplicar ###")
+# Una funcion que calcula la suma de dos numeros
+print("Ejercicio 1")
 
-def tabla(numero):
-    print(f"Tabla de multiplicar del numero: {numero}")
+def sumarDosValores(numero1, numero2):
+    suma = numero1 + numero2
+    return suma
 
-    for contador in range(11):
-        operacion = numero * contador
-        print(f"{numero} x {contador} = {operacion}")
-
-    print("\n")
-
-
-tabla(3)
-tabla(7)
-tabla(12)
-
-# Ejercicio 1.1
-
-print("__________Todas las tablas____________________")
-for numero_tabla in range(1,11):
-    tabla(numero_tabla)
+print(sumarDosValores(23,15))

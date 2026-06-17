@@ -43,3 +43,10 @@ print(texto_unido)
 texto_unido = mi_texto1 +"\r"+mi_texto2
 print(texto_unido)
 
+# Imprimir variable
+print(diccionario)
+
+
+# mostrar tipo de datos
+print(type(diccionario))
+

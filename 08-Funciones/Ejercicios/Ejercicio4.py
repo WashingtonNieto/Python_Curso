@@ -1,29 +1,23 @@
-# Ejercicio 4
-# Calculadora
+# Ejercicio 1
+print("### Ejercicio 1 ###")
+print("### Tablas de multiplicar ###")
 
-print("### Calculadora ###")
+def tabla(numero):
+    print(f"Tabla de multiplicar del numero: {numero}")
 
-def calculadora(numero1, numero2, basicas = False):
-    suma = numero1 + numero2
-    resta = numero1 - numero2
-    multiplicacion = numero1 * numero2
-    division = numero1 / numero2
+    for contador in range(11):
+        operacion = numero * contador
+        print(f"{numero} x {contador} = {operacion}")
 
-    cadena = ""
+    print("\n")
 
-    if basicas != False:
 
-        cadena += "Suma: " + str(suma)
-        cadena += "\n"
-        cadena += "Resta: " + str(resta)
-        cadena += "\n"
-    else:
-        cadena += "Multiplicacion: " + str(multiplicacion)
-        cadena += "\n"
-        cadena += "Division: " + str(division)
-        cadena += "\n"
+tabla(3)
+tabla(7)
+tabla(12)
 
-    return cadena
+# Ejercicio 1.1
 
-print(calculadora(9,2))
-
+print("__________Todas las tablas____________________")
+for numero_tabla in range(1,11):
+    tabla(numero_tabla)

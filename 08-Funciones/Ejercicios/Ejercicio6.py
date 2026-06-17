@@ -1,12 +1,12 @@
-# Ejercicio 6
-# Funciones Lambda
+# return
 
-# Es una funcion anonima, una funcion que no tiene nombre
-# y que no hace falta definirla con el def
-# sirven para tareas simples, pequeñas pero que pueden llegar a ser repetitivas
-# y que toda su ejecucion se limita a una linea de codigo
+# Ejemplo 5: return o devolver datos
 
-print("\n ### Ejemplo 6 ###")
-dime_el_year = lambda year: f"El año es {year}"
+# que es un return
 
-print(dime_el_year(2034))
+def saludame(nombre):
+    saludo = f"Hola, saludos {nombre}"
+
+    return saludo
+
+print(saludame("Maria Rodriguez"))

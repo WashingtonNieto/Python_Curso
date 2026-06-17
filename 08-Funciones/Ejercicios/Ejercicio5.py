@@ -1,20 +1,25 @@
-print("### Ejercicio 5 ###")
-print("### Funciones dentro de una funcion ###")
+# Ejercicio 2
+print("### Ejercicio 2 ###")
+print("### Parametro opcionales ###")
 
-def getNombre(nombre):
-    texto = f"El nombre es: {nombre}"
-    return texto
+def getEmpleado(nombre,identificacion):
+    print("Empleado")
+    print(f"Nombre: {nombre}")
+    print(f"Identificacion: {identificacion}")
 
-def getApellidos(apellidos):
-    texto = f"Los apellidos son: {apellidos}"
-    return texto
-
-print(getNombre("Ricardo"), getApellidos("perez"))
+getEmpleado("Juan Perez", "34234")
 
 
-def devuelveTodo(nombre,apellidos):
-    texto = getNombre(nombre) + "\n" + getApellidos(apellidos)
-    return texto
+# pero si no envio el parametro saca error
+# para eso utilizo el parametro opcional
 
-print(devuelveTodo("Jorge","Martinez"))
+# def getEmpleado(nombre,identificacion = "42342"):
+def getEmpleado(nombre,identificacion = None):
+    print("Empleado")
+    print(f"Nombre: {nombre}")
+    print(f"Identificacion: {identificacion}")
 
+    if identificacion != None:
+        print(f"Identificacion: {identificacion}")
+
+getEmpleado("Juan Perez")
