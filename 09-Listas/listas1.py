@@ -45,7 +45,10 @@ for pelicula in peliculas:
     print(f"{peliculas.index(pelicula)+1}.{pelicula}")
 
 
-# Añadir peliculas hasta "parar"
+# Hacer un programa que adicione peliculas
+# pedirle al usuario que pelicula quiere adicionar
+# cada pelicula que el usuario digite sera adiciona a la lista
+# indifinidamente... hasta que el usuario digite "parar"
 nueva_pelicula = ""
 while nueva_pelicula != "parar":
     nueva_pelicula = input("Introduce la nueva pelicula: ")
